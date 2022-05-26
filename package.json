@@ -1,0 +1,26 @@
+{
+    "name": "assets-cdn",
+    "version": "1.0.0",
+    "description": "",
+    "main": "nodemon bin/www",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "DEBUG=assets-cdn* nodemon bin/www"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "debug": "^4.3.4",
+        "fastify": "^3.27.4",
+        "fastify-cors": "^6.0.3",
+        "fastify-multipart": "^5.3.1",
+        "gaxios": "^4.3.3",
+        "mime-types": "^2.1.35",
+        "qs": "^6.10.3"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0",
+        "nodemon": "^2.0.15"
+    }
+}
